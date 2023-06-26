@@ -1,0 +1,25 @@
+{
+  "name": "qr_code_generator",
+  "version": "1.0.0",
+  "description": "The Project is a captivating web application that transforms ordinary URLs into captivating QR codes, adding an interactive and visually appealing element to sharing and accessing web links.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/kikibuh/QR-CODE-GENERATOR.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kikibuh/QR-CODE-GENERATOR/issues"
+  },
+  "homepage": "https://github.com/kikibuh/QR-CODE-GENERATOR#readme",
+  "type": "module",
+  "dependencies": {
+    "inquirer": "^9.2.7",
+    "qr-image": "^3.2.0"
+  }
+}
